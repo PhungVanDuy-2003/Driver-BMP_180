@@ -36,7 +36,7 @@ sudo reboot
 ```c
 make
 ```
-2. Kiểm tra xem thiết bị có ở địa chỉ 0x77 (ví dụ: BMP280) hay không bang lệnh:
+2. Kiểm tra xem thiết bị có ở địa chỉ 0x77 (ví dụ: BMP280) hay không bằng lệnh:
 ```c
 dmesg | grep -i 'i2c\|bmp'
 ```
